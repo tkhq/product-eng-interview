@@ -1,4 +1,4 @@
-// Goal: Create a wallet for the created sub-organization and sign a transaction! 
+// Goal: Create an Ethereum wallet for the created sub-organization and sign a transaction! 
 
 // Resources:
 // Turnkey API Reference: https://docs.turnkey.com/api-reference/overview
@@ -53,7 +53,7 @@ console.log();
 
 // The next snippet shows how to create a sub-organization for an end user.
 
-// uncomment below me!
+// uncomment everything below me! (cmd/ctrl + /)
 // // generate a new API key pair for the end user
 // const endUserAPIKeyPair = generateP256KeyPair();
 
@@ -91,5 +91,13 @@ console.log();
 // // Try running npm run dev!
 // // This will now fast reload the code and will re-run every time you save the file.
 
-// // Your gaol now is to create a wallet for the created sub-organization and sign a transaction!
-// // Be mindful of how the parent organization client was created
+// // Your goal now is to create an Ethereum wallet for the created sub-organization and sign a transaction!
+// // Be mindful of how the parent organization client was created and how the sub organization client should be created.
+
+// // Here is the CreateWallet reference: https://docs.turnkey.com/api-reference/activities/create-wallet
+// // You can use the following path for creating an account within a wallet: m/44'/60'/0'/0/0
+
+// // Here is the SignTransaction (SignRawPayload) reference: https://docs.turnkey.com/api-reference/activities/sign-raw-payload
+// // Typically when signing a cryptocurrency transaction you will serialize + hash the payload then sign the resulting hash.
+// // For encoding you can use: "PAYLOAD_ENCODING_TEXT_UTF8"
+// // For hashFunction you can use: "HASH_FUNCTION_SHA256"
