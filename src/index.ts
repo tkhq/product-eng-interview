@@ -100,6 +100,6 @@ console.log();
 // // You can use the following path for creating an account within a wallet: m/44'/60'/0'/0/0
 
 // // Here is the SignTransaction (SignRawPayload) reference: https://docs.turnkey.com/api-reference/activities/sign-raw-payload
-// // Typically when signing a cryptocurrency transaction you will serialize + hash the payload then sign the resulting hash.
+// // Typically when signing a cryptocurrency transaction you will serialize + hash the payload then sign the resulting hash, our API takes care of that, you just need to specify the parameters!
 // // For encoding you can use: "PAYLOAD_ENCODING_TEXT_UTF8"
 // // For hashFunction you can use: "HASH_FUNCTION_SHA256"
