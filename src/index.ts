@@ -52,6 +52,7 @@ console.log();
 // Try running npm run build && npm run start!
 
 // The next snippet shows how to create a sub-organization for an end user.
+// Here is the CreateSubOrganization API reference: https://docs.turnkey.com/api-reference/activities/create-sub-organization
 
 // uncomment everything below me! (cmd/ctrl + /)
 // // generate a new API key pair for the end user
@@ -93,6 +94,7 @@ console.log();
 
 // // Your goal now is to create an Ethereum wallet for the created sub-organization and sign a transaction!
 // // Be mindful of how the parent organization client was created and how the sub organization client should be created.
+// // You should use the imported '@turnkey/sdk-server' library to create the requests for creating a wallet and signing a transaction.
 
 // // Here is the CreateWallet reference: https://docs.turnkey.com/api-reference/activities/create-wallet
 // // You can use the following path for creating an account within a wallet: m/44'/60'/0'/0/0
